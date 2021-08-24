@@ -6,7 +6,7 @@ GCC = gcc
 CFLAGS=-O3 -Wno-write-strings -Wno-unused-result
 LDFLAGS=-lm -lgdal
 
-all: temp imgsum install clean
+all: temp imgsum
 
 .PHONY: all temp install clean
 
